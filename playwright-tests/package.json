@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-project-e2e",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:auth": "playwright test tests/auth.spec.ts",
+    "test:users": "playwright test tests/users.spec.ts",
+    "test:files": "playwright test tests/files.spec.ts",
+    "test:profile": "playwright test tests/profile.spec.ts",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
